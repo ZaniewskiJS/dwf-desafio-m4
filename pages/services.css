@@ -1,0 +1,354 @@
+/* Establecer el modelo de caja para todos los elementos */
+* {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 375px;
+  padding: 0%;
+  margin: 0px;
+}
+  .service-home{
+    margin-top: -150px;
+  }
+.separation {
+  background-color: #eeeeee1a;
+  width: 100%;
+  height: 1px;
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .separation {
+    display: inherit;
+  }
+}
+.service-welcome-container {
+  background-color: #13171c;
+  height: 724px;
+  padding-top: 70px;
+  padding-bottom: 164px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 54px;
+
+}
+
+@media (min-width: 769px) {
+.service-welcome-container {
+  padding: unset;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  row-gap: unset;
+  }
+}
+@media (min-width: 1216px) {
+  .service-welcome-container {
+    height: 903px;
+    align-items: unset;
+  }
+}
+.service-welcome-title {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 75px;
+  text-align: center;
+  width: 288px;
+  height: 225px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+@media (min-width: 769px) {
+  .service-welcome-title {
+    width: 352px;
+    height: 192px;
+    text-align: unset;
+  }
+}
+
+@media (min-width: 1216px) {
+  .service-welcome-title {
+    font-size: 96px;
+    line-height: 96px;
+    width: 586px;
+    margin-top: 257px;
+  }
+}
+
+.service-welcome-title-white {
+  color: #eeeeee;
+}
+
+.service-welcome-title-blue {
+  color: #00adb5;
+}
+/*--------------------------------------------------------------------------------------------------*/
+.service-welcome-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 156px;
+}
+
+.service-welcome-rocket {
+  width: 219px;
+  height: 211px;
+}
+ .service-welcome-shadow{
+    display:none;
+  }
+  
+@media (min-width: 1216px) {
+  .service-welcome-handbag {
+    width: 353px;
+    height: 340px;
+    margin-top: 221px;
+  }
+
+  .service-welcome-shadow {
+    width: 348px;
+    height: 24px;
+    display: block; 
+  }
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Configuración del cuerpo de la página */
+body {
+  min-width: 375px;
+  margin: 0%;
+}
+
+/* Estilos para el contenedor de servicios */
+.service-home{
+margin-bottom: -65px;
+
+}
+.service-home-container {
+  background-color: #13171c;
+}
+
+/* Estilos para encabezados en el contenedor de servicios */
+.service-home-h2 {
+  font-size: 42px;
+  text-align: center;
+  padding: 60px;
+  margin: 0;
+}
+
+/* Colores de texto para el contenedor de servicios */
+.service-home-white {
+  color: white;
+}
+
+.service-home-lightblue {
+  color: #00adb5;
+}
+
+/* Estilos para el contenedor de letras de servicio */
+.service-home-container-letter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 66px;
+  margin-bottom: 50px;
+}
+
+/* Estilos responsivos para el contenedor de letras de servicio */
+@media (min-width: 960px) {
+  .service-home-container-letter{
+    width: 96%;
+    margin-top: 82px;
+    margin-bottom: 65px;
+    flex-direction: row;
+    justify-content: center;
+    row-gap: unset;
+    column-gap: 11px;
+  }
+}
+
+/* Estilos responsivos adicionales para el contenedor de letras de servicio */
+@media (min-width: 1024px) {
+  .service-home-container-letter{
+    column-gap: 22px;
+  }
+}
+
+@media (min-width: 1261px) {
+  .service-home-container-letter{
+    column-gap: 44.5px;
+  }
+}
+
+/* Estilos para cada letra de servicio */
+.service-home-letter{
+margin-bottom: 120px;
+  background-color: rgba(57, 62, 70, 0.5);
+  backdrop-filter: blur(2px);
+  width: 322px;
+  height: 525px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 25px;
+}
+
+/* Estilos para la imagen dentro de la letra de servicio */
+.service-home-letter-img{
+  width: 265px;
+  height: 158px;
+  padding: 0;
+}
+
+/* Estilos para encabezado dentro de la letra de servicio */
+.service-home-letter-h3 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 100%;
+  text-align: center;
+  color: #eeeeee;
+  width: 280px;
+  height: 73px;
+  margin: 0;
+}
+
+/* Estilos para párrafo dentro de la letra de servicio */
+.service-home-letter-p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #eeeeee;
+  text-align: center;
+  width: 280px;
+  height: 151px;
+  margin: 0;
+}
+.service-home-letter-img2 {
+  width: 265px;
+  height: 158px;
+  padding: 0;
+}
+
+/* Estilos para encabezado dentro de la letra de servicio */
+.service-home-letter-h32 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 100%;
+  text-align: center;
+  color: #eeeeee;
+  width: 280px;
+  height: 73px;
+  margin: 0;
+}
+
+/* Estilos para párrafo dentro de la letra de servicio */
+.service-home-letter-p2 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #eeeeee;
+  text-align: center;
+  width: 280px;
+  height: 151px;
+  margin: 0;
+}
+.service-home-letter-img3 {
+  width: 265px;
+  height: 158px;
+  padding: 0;
+}
+
+/* Estilos para encabezado dentro de la letra de servicio */
+.service-home-letter-h33 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 100%;
+  text-align: center;
+  color: #eeeeee;
+  width: 280px;
+  height: 73px;
+  margin: 0;
+}
+
+/* Estilos para párrafo dentro de la letra de servicio */
+.service-home-letter-p3{
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #eeeeee;
+  text-align: center;
+  width: 280px;
+  height: 151px;
+  margin: 0;
+}
+.phones{
+  margin: 0%;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+ 
+}
+.service-home-letter-img31{
+
+padding: 0;
+width: 191.15px;
+height:170.67px;
+
+}
+
+.service-home-letter-img32{
+margin-left:-100px;
+width: 191.15px;
+height:170.67px;
+
+}
+
+.service-home-letter-img33{
+  margin-left:-100px;
+  width: 191.15px;
+  height:170.67px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.service-home-imgs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 156px;
+  
+}
+.service-handbag{
+border: 1px solid white;
+width: 219px;
+height: 211px;
+}
+.service-shadow{
+  width: 348px;
+  height: 24px;
+}*/
